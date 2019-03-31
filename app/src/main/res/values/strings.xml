@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Colour Tales</string>
+
+    <!-- Category name for Home Screen -->
+    <string name="category_pickstory">Pick Your Story</string>
+
+    <!-- Category name for Little Red Riding Hood -->
+    <string name="category_red">Little Red Riding Hood</string>
+
+    <!-- Category name for Three Little Pigs -->
+    <string name="category_pigs">Three Little Pigs</string>
+
+    <!-- Category name for Anansi -->
+    <string name="category_anansi">Anansi</string>
+
+    <!-- Category name for Cinderella -->
+    <string name="category_cinderella">Cinderella</string>
+</resources>

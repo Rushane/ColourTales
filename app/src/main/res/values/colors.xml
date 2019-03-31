@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the The Little Red Riding hood category -->
+    <color name="category_red">#ff0000</color>
+
+    <!-- Background color for the Three Little Pigs category -->
+    <color name="category_pink">#ff008d</color>
+
+    <!-- Background color for the Anansi category -->
+    <color name="category_purple">#8800A0</color>
+
+    <!-- Background color for the Cinderella category -->
+    <color name="category_blue">#16AFCA</color>
+</resources>
