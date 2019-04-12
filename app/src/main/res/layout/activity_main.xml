@@ -22,26 +22,26 @@
 
         <TextView
             android:id="@+id/numbers"
-            android:style="@style/CategoryStyle"
+            style="@style/CategoryStyle"
             android:background="@color/category_red"
             android:text="@string/category_red"
             android:onClick="openRedRidingHood"/>
 
         <TextView
             android:id="@+id/family"
-            android:style="@style/CategoryStyle"
+            style="@style/CategoryStyle"
             android:background="@color/category_pink"
             android:text="@string/category_pigs" />
 
         <TextView
             android:id="@+id/colors"
-            android:style="@style/CategoryStyle"
+            style="@style/CategoryStyle"
             android:background="@color/category_purple"
             android:text="@string/category_anansi" />
 
         <TextView
             android:id="@+id/phrases"
-            android:style="@style/CategoryStyle"
+            style="@style/CategoryStyle"
             android:background="@color/category_blue"
             android:text="@string/category_cinderella" />
 
