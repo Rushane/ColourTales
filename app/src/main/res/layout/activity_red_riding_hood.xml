@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/riding_hood_coloring_wolf"
+            app:srcCompat="@drawable/hood_riding"
             />
 
     </LinearLayout>
