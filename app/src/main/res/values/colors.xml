@@ -20,4 +20,11 @@
 
     <!-- Background color for the Cinderella category -->
     <color name="category_blue">#16AFCA</color>
+
+    <!-- Other colours -->
+    <color name="category_yellow">#FFFF00</color>
+
+    <color name="category_green">#008000</color>
+
+    <color name="category_white">#f8f8ff</color>
 </resources>

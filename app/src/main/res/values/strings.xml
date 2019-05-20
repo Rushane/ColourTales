@@ -15,4 +15,25 @@
 
     <!-- Category name for Cinderella -->
     <string name="category_cinderella">Cinderella</string>
+
+    <string name="red">Red</string>
+
+    <string name="blue">Blue</string>
+
+    <string name="yellow">Yellow</string>
+
+    <string name="white">White</string>
+
+    <string name="green">Green</string>
+
+    <string name="six_to_eight_red_one">Once upon a time there was sweet little girl who everyone called Little Red Riding Hood.</string>
+
+    <string name="six_to_eight_red_one_full">Once upon a time there was sweet little girl who everyone called Little Red Riding Hood.
+        Her grandma, who loved her very much, gave her the red riding hood. </string>
+
+    <string name="six_to_eight_red_two">One day Little Red Riding Hood’s mother asked her to take a basket of food, with bread, berries
+        and cake to her grandmother who was feeling sick</string>
+
+
+
 </resources>
