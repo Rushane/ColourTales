@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RedRidingHoodActivity" android:label="@string/category_red"></activity>
+        <activity android:name=".RedRidingHoodActivityEight"></activity>
+        <activity android:name=".RedRidingHoodActivitySeven" />
+        <activity android:name=".RedRidingHoodActivitySix" />
+        <activity android:name=".RedRidingHoodActivityFive" />
+        <activity android:name=".RedRidingHoodActivityFour" />
+        <activity android:name=".RedRidingHoodActivityThree" />
+        <activity android:name=".RedRidingHoodActivityTwo" />
+        <activity
+            android:name=".RedRidingHoodActivity"
+            android:label="@string/category_red" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

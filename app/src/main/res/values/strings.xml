@@ -34,6 +34,49 @@
     <string name="six_to_eight_red_two">One day Little Red Riding Hood’s mother asked her to take a basket of food, with bread, berries
         and cake to her grandmother who was feeling sick</string>
 
+    <string name="six_to_eight_red_two_full">One day Little Red Riding Hood’s mother asked her to take a basket of food, with bread, berries and cake
+        her grandmother who was feeling sick. Her mother said,
+        “Don’t talk to strangers, don’t leave the path and walk straight to your grandma’s house.” </string>
+
+    <string name="six_to_eight_red_three">The girl had just entered the woods, when a wolf came out of the trees.
+        She was not scared because she did not know wolves are dangerous.</string>
+
+    <string name="six_to_eight_red_three_full">Little Red Riding Hood’s grandmother lived half an hour away in the woods outside the village.
+        The girl had just entered the woods, when a wolf came out of the trees.
+        She was not scared because she did not know wolves are dangerous.  </string>
+
+    <string name="six_to_eight_red_four">The girl looked around and saw all the beautiful flowers. </string>
+
+    <string name="six_to_eight_red_four_full">They continued walking and wolf spoke again. “What lovely flowers there are here! Why don’t you pick some for your grandma?”
+        The girl looked around and saw all the beautiful flowers. She thought that her grandmother
+        would be delighted to have some fresh flowers and despite her mother’s advice, she left the path. </string>
+
+    <string name="six_to_eight_red_five">the wolf went straight to her grandmother’s house. He knocked on the door </string>
+
+    <string name="six_to_eight_red_five_full">When Little Red Riding Hood went into the woods to pick flowers, the wolf went straight to her grandmother’s house. He knocked on the door and heard a voice ask “Who is it?” ‘It’s me, Little Red Riding Hood. I’ve brought you bread, butter, cake and berries”, the wolf said, disguising his voice.
+        “How lovely! Give the door a big push and come in. I don’t have the strength to come and open it.”  </string>
+
+    <string name="six_to_eight_red_six">The wolf roared, jumped off the bed and ate the poor girl whole. </string>
+
+    <string name="six_to_eight_red_six_full">Her grandmother looked strange. “Oh, Grandma, what big ears you have!” exclaimed Red Riding Hood. “All the better to hear you with!”
+        the wolf replied in a fake voice. “Oh, Grandma, what big eyes you have!” she continued. “All the better to see you with!” the wolf said. “Oh, Grandma, what big hands you have!”
+        “All the better to grab you with!”, the wolf said. “Oh, Grandma, what a big mouth you have!” exclaimed Red Riding Hood.
+        “All the better to eat you with!” The wolf roared, jumped off the bed and ate the poor girl whole.  </string>
+
+    <string name="six_to_eight_red_seven">The wolf roared, jumped off the bed and ate the poor girl whole </string>
+
+    <string name="six_to_eight_red_seven_full">With his stomach full, the wolf got back into grandma’s bed and fell asleep, snoring loudly. A huntsman, who was passing by the house,
+        heard him and thought it was very strange for the old woman to snore so loudly.
+        He looked inside and saw the wolf. The huntsman took a pair of scissors and cut open the wolf’s belly.  </string>
+
+    <string name="six_to_eight_red_eight">The three ate some cake, happy in the knowledge that the wolf was not going to be a danger anymore.  </string>
+
+    <string name="six_to_eight_red_eight_full">He saw a red hood popping out and then Little Red Riding Hood jumped out.
+        The huntsman cut a bit more and the grandmother came out, too. Little Red Riding Hood gathered some stones and they filled the wolf\'s belly with them. The wolf fell down dead.
+        The three ate some cake, happy in the knowledge that the wolf was not going to be a danger anymore.  </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

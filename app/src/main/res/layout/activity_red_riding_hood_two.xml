@@ -12,7 +12,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/six_to_eight_red_one"
+            android:text="@string/six_to_eight_red_two"
             android:textSize="23dp"
             android:gravity="center"
             />
@@ -29,7 +29,7 @@
             android:id="@+id/six_to_eight_first_pic"
             android:layout_width="match_parent"
             android:layout_height="571dp"
-            android:src="@drawable/six_to_eight_first_pic" />
+            android:src="@drawable/girl_with_mom" />
     </RelativeLayout>
 
     <LinearLayout
@@ -100,6 +100,5 @@
             android:src="@drawable/forwardarrow" />
 
     </LinearLayout>
-
 
 </LinearLayout>
