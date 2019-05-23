@@ -12,7 +12,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/six_to_eight_red_one"
+            android:text="@string/six_to_eight_red_five"
             android:textSize="23dp"
             android:gravity="center"
             />
@@ -26,23 +26,16 @@
         android:layout_weight="1" >
 
         <ImageView
-            android:id="@+id/six_to_eight_first_pic"
+            android:id="@+id/six_to_eight_fifth_pic"
             android:layout_width="match_parent"
             android:layout_height="571dp"
-            android:src="@drawable/girl_mom" />
+            android:src="@drawable/wolf_door" />
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/btn_red"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2"
-            android:background="@color/category_red"/>
 
         <Button
             android:id="@+id/btn_yellow"
@@ -56,29 +49,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/category_blue"
-            android:text="3"
+            android:text="1"
             />
         <Button
             android:id="@+id/btn_green"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/category_green"
-            android:text="4"
+            android:text="3"
             />
-        <Button
-            android:id="@+id/btn_purple"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/category_purple"
-            android:text="5"
-            />
-        <Button
-            android:id="@+id/btn_white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/category_white"
-            android:text="6"
-            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -107,6 +87,5 @@
             android:src="@drawable/forwardarrow" />
 
     </LinearLayout>
-
 
 </LinearLayout>

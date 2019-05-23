@@ -12,51 +12,38 @@ import android.graphics.Path;
 import android.graphics.Point;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageButton;
-import android.view.View.OnTouchListener;
-import android.view.View.OnClickListener;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.speech.tts.TextToSpeech;
-
-import com.devs.vectorchildfinder.VectorChildFinder;
-import com.devs.vectorchildfinder.VectorDrawableCompat;
+import android.view.View.OnClickListener;
+import android.view.View.OnTouchListener;
 
 import java.util.LinkedList;
 import java.util.Locale;
 import java.util.Queue;
 
-public class RedRidingHoodActivity extends AppCompatActivity implements OnTouchListener, TextToSpeech.OnInitListener {
-
-    //private RelativeLayout drawingLayout;
+public class RedRidingHoodActivityThree extends AppCompatActivity  implements View.OnTouchListener, TextToSpeech.OnInitListener {
     private RelativeLayout drawingLayout;
     private MyView myView;
-    Button red, blue, yellow;
+    //Button red, blue, yellow;
+    Button blue,brown, green;
     ImageButton previousButton, nextButton;
     Paint paint;
     TextToSpeech textToSpeech;
     String speakText;
 
-    /** Called when the activity is first created. */
-    /*
-     *
-     * private ImageView imageView; private Canvas cv; private Bitmap mask,
-     * original, colored; private int r,g,b; private int sG, sR, sB;
-     */
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_red_riding_hood);
+        setContentView(R.layout.activity_red_riding_hood_three);
 
-        speakText = getString(R.string.six_to_eight_red_one_full);
+        speakText = getString(R.string.six_to_eight_red_three_full);
         textToSpeech = new TextToSpeech(this, this);
         texttoSpeak();
         myView = new MyView(this);
@@ -66,24 +53,24 @@ public class RedRidingHoodActivity extends AppCompatActivity implements OnTouchL
         previousButton = (ImageButton)findViewById(R.id.previousarrow);
         nextButton = (ImageButton)findViewById(R.id.nextarrow);
 
-        red = (Button) findViewById(R.id.btn_red);
+        brown = (Button) findViewById(R.id.btn_brown);
         blue = (Button) findViewById(R.id.btn_blue);
-        yellow = (Button) findViewById(R.id.btn_yellow);
+        green = (Button) findViewById(R.id.btn_green);
 
 
-        red.setOnClickListener(new OnClickListener() {
+        brown.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                paint.setColor(Color.RED);
+                paint.setColor(Color.rgb(165,42,42));
             }
         });
 
-        yellow.setOnClickListener(new OnClickListener() {
+        green.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                paint.setColor(Color.YELLOW);
+                paint.setColor(Color.GREEN);
             }
         });
         blue.setOnClickListener(new OnClickListener() {
@@ -109,12 +96,11 @@ public class RedRidingHoodActivity extends AppCompatActivity implements OnTouchL
             @Override
             public void onClick(View v)
             {
-                Intent loginIntent = new Intent(RedRidingHoodActivity.this, RedRidingHoodActivityTwo.class);
+                Intent loginIntent = new Intent(RedRidingHoodActivityThree.this, RedRidingHoodActivityFour.class);
                 startActivity(loginIntent);
                 overridePendingTransition(R.anim.grow_from_middle,R.anim.shrink_to_middle);
             }
         });
-
     }
 
     @Override
@@ -175,7 +161,7 @@ public class RedRidingHoodActivity extends AppCompatActivity implements OnTouchL
             paint.setStrokeJoin(Paint.Join.ROUND);
             paint.setStrokeWidth(5f);
             mBitmap = BitmapFactory.decodeResource(getResources(),
-                    R.drawable.girl_mom).copy(Bitmap.Config.ARGB_8888, true);
+                    R.drawable.wolf_from_tree).copy(Bitmap.Config.ARGB_8888, true);
 
             this.path = new Path();
         }
@@ -183,7 +169,7 @@ public class RedRidingHoodActivity extends AppCompatActivity implements OnTouchL
         @Override
         protected void onDraw(Canvas canvas) {
             this.canvas = canvas;
-            paint.setColor(Color.GREEN);
+            paint.setColor(Color.WHITE);
             canvas.drawBitmap(mBitmap, 0, 0, paint);
 
         }
